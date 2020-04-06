@@ -1,2 +1,4 @@
+
+
 This project is a version of the game "Mastermind" in which a player must guess a secret code in a given amount of turns. This project was helpful in solidifying some knowledge on classes, modules, and scope. A neat trick I learned that allows a class to be able to read another classes instance variables is to create a class variable that holds an array of instances of that class, and shovel an object into it when it is instantiated. 
 I've still got to work on making the computer "smart". This will involve structuring it's code guessing system so that if a previous guess had been red (completely wrong), it will not guess that number in the future and if it had been green (exactly right) to always put that number in that position in the guess array. I can achieve this by accessing the "@guess_feedback" array from within the Mastermind class to make better judgements. 
